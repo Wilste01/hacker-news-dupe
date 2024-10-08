@@ -1,0 +1,103 @@
+
+body {
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.wrapper {
+    margin: 1rem 3rem 3rem;
+    background-color: #f6f6ef;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+a {
+    text-decoration: none;
+    color: 000;
+}
+:visited {
+    color: #000;
+}
+.banner .left {
+    margin-left: auto;
+}
+#logo {
+    border: 1px solid white;
+    margin-right: 1rem;
+    margin-bottom: 5px;
+}
+h1 {
+    margin-right: 1rem;
+    font-size: 13.333px;
+}
+.banner {
+    background-color: #ff6600;
+    display: flex;
+    align-items: center;
+    height: 22px;
+    padding: 2px;
+    padding-bottom: 0;
+    font-size: 13.333px;
+}
+ol {
+    padding-left: 1.6rem;
+}
+main li {
+    margin: 1rem 0;
+    font-size: 13.333px;
+}
+li::marker {
+    color: #b1b1b1;
+}
+li::before {
+    content: " \25B2";
+    margin-right: 0.2rem; 
+    color: #b1b1b1; 
+}
+li::after {
+    content: "264 points by walterbell 15 hours ago | hide | 98 comments";
+    display: block;
+    margin-left: 0.2rem; 
+    color: #b1b1b1; 
+    font-size: 9.333px; 
+}
+
+.second-small-link{
+    color: #b1b1b1;
+    font-size: 10px;
+    margin-left: 0.2rem;
+}
+.second-small-link:visited {
+    margin-left: 0.2rem;
+    font-size: 10px;
+    color: #b1b1b1; 
+}
+.second-small-link::after {
+    content: ")";
+    color: #b1b1b1; 
+}
+.second-small-link::before {
+    content: "(";
+    color: #b1b1b1; 
+}
+
+
+
+
+footer {
+    font-size: 10px;
+}
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 0.2rem;
+    padding: 2rem 2rem;
+}
+#search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #b1b1b1;
+    padding-bottom: 1rem;
+}
+#search input {
+    margin: 1rem;
+}
